@@ -1,7 +1,7 @@
 name: 04 - Uso de Actions
 
 on:
-  push:  # Se ejecuta automáticamente con cada push
+  workflow_dispatch: 
 
 jobs:
   build:
